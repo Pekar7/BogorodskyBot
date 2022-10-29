@@ -22,12 +22,13 @@ public class ServiceBot extends TelegramLongPollingBot {
     final BotConfig config;
 
     static final String HELP_TEXT = "OOO «БОГОРОДСКИЙ»\nАдрес: г. Старая Купавна ул. Дорожная 29"
-            +"\nСвязаться с диспетчером.\nТелефон: \n+7(985)999-55-90 \nTelegram: @bogorodsky_beton\nПочта: 000.bogorodky@yandex.ru";
+            +"\nСвязаться с диспетчером.\nТелефон: \n+7(985)999-55-90 \nTelegram: @bogorodsky_beton\nПочта: ooo.bogorodky@yandex.ru";
 
     static final String HELP_BOSS = "OOO «БОГОРОДСКИЙ»\nАдрес: г. Старая Купавна ул. Дорожная 29"
             +"\nРуководитель: \nПетросян Эдуард Грачикович\nТелефон: \n+7(995)900-57-27\nTelegram: @bogorodsky_beton\nПочта: bogorodsky2022@gmail.com";
 
-    static final String NAVIGATOR = "Навигатор: https://yandex.ru/navi/?whatshere%5Bzoom%5D=18&whatshere%5Bpoint%5D=38.202398%2C55.792823&lang=ru&from=navi";
+    static final String NAVIGATOR = "Навигатор: https://yandex.ru/navi/?whatshere%5Bzoom%5D=18&whatshere%5Bpoint%5D=38.202398%2C55.792823&lang=ru&from=navi\n" +
+            "Оставить заявку: https://goo.su/LtcqaA";
 
     static final String DELIVERY_TEXT = "Доставка осуществляется 9м3 автомиксерами. \n10 км - 4 500,00₽"+
             "\n15 км - 4 950,00₽\n20 км - 5 400,00₽\n25 км - 5 850,00₽\n30 км - 6 300,00₽\n35 км - 6 750,00₽\n40 км - 7 200,00₽\nСвыше 40 км по договоренности." +
